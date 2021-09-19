@@ -2,6 +2,8 @@
 //header("Location:index.php");
 ?>
 
+<?php include 'connecation.php';?>
+
 <?php
     $fullname = $_POST['fullname'];
     $mobile = $_POST['mobile'];
@@ -20,7 +22,7 @@
 
 
 
-     $conn = mysqli_connect("localhost", "root", "", "tutorcrm") or die ("connection failed");
+    // $conn = mysqli_connect("localhost", "root", "", "tutorcrm") or die ("connection failed");
 
  //$sql = "insert into treatment SET symptoms = '{$symptoms}', medicines ='{$medicines}' WHERE id = {$patient_id}";
 $insertquery = "insert into tutorprof(fullname,mobile,birthdate,experience,email,password,yourqualific,address,studenthome,tutorplace,online,groupinsti,city,inzip)
