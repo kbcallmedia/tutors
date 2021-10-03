@@ -12,7 +12,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/LogoATR1.png" type="image/x-icon">
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css"> 
+   
+    <link rel="stylesheet" href="css/bootstrap.css">
+
     <!-- owl carousel theme default CSS file -->
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- owl carousel CSS file -->
